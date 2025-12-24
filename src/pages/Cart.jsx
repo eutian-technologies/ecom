@@ -9,7 +9,7 @@ const Cart = () => {
     const totalAmount = getTotalCartAmount();
 
     const handleCheckout = () => {
-        const phoneNumber = "YOUR_PHONE_NUMBER"; // Placeholder
+        const phoneNumber = "918125685107"; // Updated WhatsApp number
         let message = "Hello Jbros, I'd like to place an order:%0A%0A";
 
         products.forEach((product) => {

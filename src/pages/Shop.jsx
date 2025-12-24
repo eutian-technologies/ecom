@@ -83,7 +83,7 @@ const Shop = () => {
                                 style={{ padding: '0.8rem 1.5rem', fontSize: '0.9rem', backgroundColor: '#25D366', borderColor: '#25D366' }}
                                 onClick={() => {
                                     const message = `Hi Jbros, I'm looking for "${searchTerm}" but couldn't find it on your store. Can you help?`;
-                                    window.open(`https://wa.me/YOUR_PHONE_NUMBER?text=${encodeURIComponent(message)}`, '_blank');
+                                    window.open(`https://wa.me/918125685107?text=${encodeURIComponent(message)}`, '_blank');
                                 }}
                             >
                                 Request Product
