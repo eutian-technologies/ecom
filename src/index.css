@@ -111,3 +111,12 @@ button {
 ::-webkit-scrollbar-thumb:hover {
     background-color: rgba(0, 0, 0, 0.4);
 }
+
+/* Product Grid Mobile Override */
+@media (max-width: 750px) {
+    .product-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 1rem !important;
+    }
+}

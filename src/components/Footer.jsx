@@ -54,14 +54,14 @@ const Footer = () => {
                         <div className="contact-icon">
                             <MapPin size={20} fill="currentColor" strokeWidth={0} />
                         </div>
-                        <span>London Eye, London UK</span>
+                        <span>Pragati Plaza, No 160/2A, Hosur Highway, Kammasandra, Hebbagodi, Bengaluru, Karnataka 560100</span>
                     </div>
 
                     <div className="contact-item">
                         <div className="contact-icon">
                             <Phone size={20} fill="currentColor" strokeWidth={0} />
                         </div>
-                        <span>088-777-666-85</span>
+                        <span>8125685107</span>
                     </div>
 
                     <div className="contact-item">

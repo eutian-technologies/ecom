@@ -29,7 +29,7 @@ const Contact = () => {
                                 </div>
                                 <div className="info-details">
                                     <h3>Phone</h3>
-                                    <p>(+081) 5678 1234</p>
+                                    <p>8125685107</p>
                                 </div>
                             </div>
 
@@ -49,7 +49,7 @@ const Contact = () => {
                                 </div>
                                 <div className="info-details">
                                     <h3>Address</h3>
-                                    <p>London Eye, London</p>
+                                    <p>Pragati Plaza, No 160/2A, Hosur Highway, Kammasandra, Hebbagodi, Bengaluru, Karnataka 560100</p>
                                 </div>
                             </div>
 
@@ -109,7 +109,7 @@ const Contact = () => {
                 {/* Google Map */}
                 <div className="map-container">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.546467367302!2d-0.12169668406734791!3d51.50332401882356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604b900d26973%3A0x4291f3172409ea92!2slastminute.com%20London%20Eye!5e0!3m2!1sen!2suk!4v1652885942472!5m2!1sen!2suk"
+                        src="https://maps.google.com/maps?q=Pragati%20Plaza%2C%20No%20160%2F2A%2C%20Hosur%20Highway%2C%20Kammasandra%2C%20Hebbagodi%2C%20Bengaluru%2C%20Karnataka%20560100&t=&z=15&ie=UTF8&iwloc=&output=embed"
                         width="100%"
                         height="400"
                         style={{ border: 0 }}
