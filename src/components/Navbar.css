@@ -207,7 +207,7 @@
     display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 750px) {
     .navbar-content {
         gap: 1rem;
         flex-wrap: nowrap;
@@ -230,7 +230,7 @@
         margin-right: 0;
     }
 
-    /* Mobile Search Active State * /
+    /* Mobile Search Active State */
     .mobile-search-active-container {
         display: flex;
         width: 100%;
