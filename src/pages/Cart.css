@@ -1,0 +1,135 @@
+.cart-page {
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+    min-height: 70vh;
+}
+
+.empty-cart {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.cart-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 4rem;
+}
+
+.cart-item {
+    display: flex;
+    gap: 2rem;
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+.cart-item img {
+    width: 120px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+.cart-item-info {
+    flex: 1;
+}
+
+.cart-item-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.cart-item-price {
+    color: var(--color-secondary);
+    margin-bottom: 1.5rem;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--color-border);
+    width: fit-content;
+}
+
+.quantity-controls button {
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.quantity-controls input {
+    width: 40px;
+    text-align: center;
+    border: none;
+    background: none;
+    font-weight: 600;
+}
+
+.cart-item-total {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.cart-summary {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 2px;
+    height: fit-content;
+}
+
+.cart-summary h3 {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+}
+
+.summary-row.total {
+    border-top: 1px solid #ddd;
+    padding-top: 1rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.checkout-btn {
+    background-color: #25D366;
+    /* WhatsApp Green */
+    color: #fff;
+    width: 100%;
+    padding: 1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 4px;
+    /* WhatsApp style */
+    transition: background-color 0.2s ease;
+}
+
+.checkout-btn:hover {
+    background-color: #128C7E;
+}
+
+@media (max-width: 768px) {
+    .cart-grid {
+        grid-template-columns: 1fr;
+    }
+}
